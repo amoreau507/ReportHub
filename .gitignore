@@ -1,0 +1,4 @@
+venv
+static/reports
+templates/reports
+.idea

@@ -1,0 +1,8 @@
+<div class=page>
+    <div class=metanav>
+        {% include 'commons/navBar.html' %}
+    </div>
+    {% block body %}
+        {% include "reports/"+report_ref+"/index.html" %}
+    {% endblock %}
+</div>
